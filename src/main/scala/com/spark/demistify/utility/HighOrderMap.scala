@@ -26,7 +26,7 @@ object HighOrderMap {
     //Calling high order function.
     val highOrdrdListRdd = listRdd.map(highOrderParser)
     val highOrdrdMapRdd = mapRdd.map(highOrderParser)
-    highOrdrdMapRdd.foreach(println)
+
   }
    /*High order function to be called in rdd map function*/
   def highOrderParser[T](input:T): Any ={

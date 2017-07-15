@@ -25,8 +25,12 @@ object FilterFunction {
     val mapRdd   = sc.parallelize(List(map))
 
     /* Iterate each of 'InputRdd' and apply filter logic to each of the rdd elements. */
-    listRdd.filter(_ >= 30)    //Filtering out rdd elements gt 30
-    val fltrdMapRdd  = mapRdd.filter(_.keys.head >= 30)
-    mapRdd.foreach(println)
+    val fltrdListRdd  = listRdd.filter(_ >= 30)    //Filtering out rdd elements gt 30
+    val fltrdMapRdd   = mapRdd.filter(filterMap)
+   
+  }
+
+  def filterMap(input: Map[Int,String]):Boolean ={
+      input.head._1 > 30
   }
 }
