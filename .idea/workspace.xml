@@ -33,41 +33,19 @@
       <file leaf-file-name="GroupByFunction.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/demistify/utility/GroupByFunction.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="213">
+              <caret line="20" column="63" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="63" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HighOrderMap.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/demistify/utility/HighOrderMap.scala">
+      <file leaf-file-name="ReduceByKeyFunction.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/demistify/utility/ReduceByKeyFunction.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="162">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapFunction.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/demistify/utility/MapFunction.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapPartitionFunction.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/demistify/utility/MapPartitionFunction.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-              <folding>
-                <element signature="e#37#76#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -90,6 +68,7 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/spark/demistify/utility/HighOrderMap.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/spark/demistify/utility/MapFunction.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/spark/demistify/utility/MapPartitionFunction.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/spark/demistify/utility/ReduceByKeyFunction.scala" />
       </list>
     </option>
   </component>
@@ -230,27 +209,7 @@
       <recent name="com.spark.demistify.utility" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GroupByFunction">
-    <configuration default="false" name="FilterFunction" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.spark.demistify.utility.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.spark.demistify.utility.FilterFunction" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="demystifyspark" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.ReduceByKeyFunction">
     <configuration default="false" name="HighOrderMap" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -319,6 +278,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.spark.demistify.utility.GroupByFunction" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="demystifyspark" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReduceByKeyFunction" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.spark.demistify.utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.spark.demistify.utility.ReduceByKeyFunction" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -611,19 +590,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FilterFunction" />
-      <item index="1" class="java.lang.String" itemvalue="Application.HighOrderMap" />
-      <item index="2" class="java.lang.String" itemvalue="Application.FlatMapFunction" />
-      <item index="3" class="java.lang.String" itemvalue="Application.MapPartitionFunction" />
-      <item index="4" class="java.lang.String" itemvalue="Application.GroupByFunction" />
+      <item index="0" class="java.lang.String" itemvalue="Application.HighOrderMap" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FlatMapFunction" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MapPartitionFunction" />
+      <item index="3" class="java.lang.String" itemvalue="Application.GroupByFunction" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ReduceByKeyFunction" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.GroupByFunction" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MapPartitionFunction" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FlatMapFunction" />
-        <item index="3" class="java.lang.String" itemvalue="Application.HighOrderMap" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FilterFunction" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ReduceByKeyFunction" />
+        <item index="1" class="java.lang.String" itemvalue="Application.GroupByFunction" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MapPartitionFunction" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FlatMapFunction" />
+        <item index="4" class="java.lang.String" itemvalue="Application.HighOrderMap" />
       </list>
     </recent_temporary>
   </component>
@@ -883,14 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/demistify/utility/GroupByFunction.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/demistify/utility/HighOrderMap.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -914,6 +885,30 @@
           <folding>
             <element signature="e#37#76#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.11/srcs/spark-core_2.11-1.6.2-sources.jar!/org/apache/spark/rdd/PairRDDFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="310" column="6" selection-start-line="310" selection-start-column="6" selection-end-line="310" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/demistify/utility/GroupByFunction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="20" column="63" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/spark/demistify/utility/ReduceByKeyFunction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
