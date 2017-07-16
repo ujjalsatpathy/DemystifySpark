@@ -27,7 +27,7 @@ object FilterFunction {
     /* Iterate each of 'InputRdd' and apply filter logic to each of the rdd elements. */
     val fltrdListRdd  = listRdd.filter(_ >= 30)    //Filtering out rdd elements gt 30
     val fltrdMapRdd   = mapRdd.filter(filterMap)
-   
+
   }
 
   def filterMap(input: Map[Int,String]):Boolean ={
