@@ -4,7 +4,7 @@ import org.apache.log4j.{Level, Logger}
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
-  * Created by eujjsat on 7/16/2017.
+  * Created by Ujjal Satpathy on 7/16/2017.
   */
 object MapPartitionFunction {
   /**

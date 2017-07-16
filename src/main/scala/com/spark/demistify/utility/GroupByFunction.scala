@@ -3,7 +3,7 @@ package com.spark.demistify.utility
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
-  * Created by eujjsat on 7/16/2017.
+  * Created by Ujjal Satpathy on 7/16/2017.
   */
 object GroupByFunction {
   /**
@@ -20,7 +20,7 @@ object GroupByFunction {
 
     /* Group by first element of each of the strings in list */
     val grpdListRdd  = sc.parallelize(pairList).groupBy(x => x.split(",")(0))
-    
+
     /* Output would be like following:
     (pig,CompactBuffer(pig,yahoo, pig,google))
     (spark,CompactBuffer(spark,databricks, spark,amplab))

@@ -5,7 +5,7 @@ import org.apache.log4j.Logger
 import org.apache.log4j.Level
 
 /**
-  * Created by eujjsat on 7/16/2017.
+  * Created by Ujjal Satpathy on 7/16/2017.
   */
 object FlatMapFunction {
   /**

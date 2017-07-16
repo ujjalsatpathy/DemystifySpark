@@ -3,7 +3,7 @@ package com.spark.demistify.utility
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
-  * Created by eujjsat on 7/14/2017.
+  * Created by Ujjal Satpathy on 7/14/2017.
   */
 object HighOrderMap {
   /**
