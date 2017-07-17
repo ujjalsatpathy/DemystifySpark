@@ -15,7 +15,7 @@ object FlatMapFunction {
     */
   def main(args: Array[String]) = {
 
-    val conf = new SparkConf().setMaster("local[*]").setAppName("map")
+    val conf = new SparkConf().setMaster("local[*]").setAppName("flatmap")
     val sc = new SparkContext(conf)
 
     /*Define input elements*/

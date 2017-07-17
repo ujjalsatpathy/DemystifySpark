@@ -12,7 +12,7 @@ object HighOrderMap {
     */
   def main(args: Array[String]) = {
 
-    val conf = new SparkConf().setMaster("local[*]").setAppName("map")
+    val conf = new SparkConf().setMaster("local[*]").setAppName("highordermap")
     val sc = new SparkContext(conf)
 
     /*Define input elements*/

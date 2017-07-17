@@ -12,7 +12,7 @@ object GroupByFunction {
     */
   def main(args: Array[String]) = {
 
-    val conf = new SparkConf().setMaster("local[*]").setAppName("map")
+    val conf = new SparkConf().setMaster("local[*]").setAppName("group")
     val sc = new SparkContext(conf)
 
     /*Define input elements*/

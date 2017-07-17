@@ -12,7 +12,7 @@ object MapPartitionFunction {
     * @param args
     */
   def main(args: Array[String]) = {
-    val conf = new SparkConf().setMaster("local[*]").setAppName("map")
+    val conf = new SparkConf().setMaster("local[*]").setAppName("mappartition")
     val sc = new SparkContext(conf)
 
     /*Define input elements*/

@@ -13,7 +13,7 @@ object FilterFunction {
     */
   def main(args: Array[String]):Unit = {
 
-    val conf = new SparkConf().setMaster("local[*]").setAppName("map")
+    val conf = new SparkConf().setMaster("local[*]").setAppName("filter")
     val sc = new SparkContext(conf)
 
     /*Define input elements*/

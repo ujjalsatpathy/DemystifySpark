@@ -13,7 +13,7 @@ object ReduceByKeyFunction {
     */
   def main(args: Array[String]) = {
 
-    val conf = new SparkConf().setMaster("local[*]").setAppName("map")
+    val conf = new SparkConf().setMaster("local[*]").setAppName("reducebykey")
     val sc = new SparkContext(conf)
 
     /*Define input elements*/
